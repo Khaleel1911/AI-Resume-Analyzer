@@ -1,0 +1,142 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #000000, #231331);
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-btn {
+  background: rgb(255, 30, 30);
+  color: #ffffff;
+  border: none;
+  padding: 20px 25px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.76); 
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.hero-btn>label{
+  cursor: pointer;
+}
+
+.hero-btn>img{
+  width: 20px;
+}
+
+/* .action-btn{
+
+  background: rgb(255, 30, 30);
+  color: #ffffff;
+  border: none;
+  padding: 20px 25px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.76);
+  margin-left: 2px; 
+  display: flex;
+} */
+.hero-btn>button{
+  background:none;
+  border: none;
+  padding: 2.5px;
+  font-weight: bold;
+  font-family: "poppins" sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#analyze-btn{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 3px;
+}
+.file-name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #4f46e5; /* theme color */
+  font-weight: 500;
+}
+
+
+.hero-btn:hover {
+  background: #bd1919;
+}
+.action-btn:hover {
+  background: #bd1919;
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+  .action-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+}
