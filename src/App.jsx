@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Insights from "./pages/Insights"; 
 import { Toaster } from "react-hot-toast"; 
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/insights" element={<Insights />} />
       </Routes>
+
+      <Footer/>
     </Router>
   );
 }

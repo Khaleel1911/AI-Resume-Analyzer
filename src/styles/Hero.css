@@ -30,6 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 2px solid yellow; */
 }
 
 .hero-btn {
@@ -60,26 +61,9 @@
   width: 20px;
 }
 
-/* .action-btn{
-
-  background: rgb(255, 30, 30);
-  color: #ffffff;
-  border: none;
-  padding: 20px 25px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s;
-  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.76);
-  margin-left: 2px; 
-  display: flex;
-} */
 .hero-btn>button{
   background:none;
   border: none;
-  padding: 2.5px;
   font-weight: bold;
   font-family: "poppins" sans-serif;
   font-size: 1.1rem;
